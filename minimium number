@@ -1,0 +1,15 @@
+class mini{
+    public static void main(String []agrs){
+       int n=56978;
+      int  min=Integer.MAX_VALUE;
+       while(n>0){
+        int  digit =n%10;
+        if(digit<min){
+           min=digit;
+          
+          
+        }
+         n= n/10;
+       } System.out.println("number:"+min);
+    }
+}
