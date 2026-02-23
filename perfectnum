@@ -1,0 +1,20 @@
+class perfectnum{   
+ public static void main(String[] args){
+        int n = 28;   
+        int sum = 0;  // sum (initially 0)
+         for(int i = 1; i < n; i++){   // loop from 1 to n-1 (check all possible factors)
+         if(n % i == 0){   // check if i is a factor of n (remainder 0 means factor)
+            sum = sum + i;   // if factor, add i to sum (accumulate total)
+             }  
+
+        }   // loop ends here (all numbers checked)
+
+        if(sum == n)   // check if total sum of factors equals original number
+              System.out.println("perfect number");   // if equal → perfect number
+
+        else{   // if sum not equal to n
+             System.out.println("not a perfect number");   // not perfect
+
+        }  
+    }  
+}   
