@@ -1,0 +1,9 @@
+ 
+class ncount{
+    public static void main(String[]args){
+    
+ String n="12345";
+ int len=n.length();
+ System.out.println(len);
+    }
+}
