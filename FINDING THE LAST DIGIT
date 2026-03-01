@@ -1,0 +1,12 @@
+ //  FINDING THE LAST DIGIT
+class last{
+     public static void main(String []args){
+          int n= 1278;
+           int d= 0;
+           while(n>0){
+               d= n%10;
+               n= 0;
+           }
+           System.out.println(d);
+               }
+}
