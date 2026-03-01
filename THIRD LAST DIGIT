@@ -1,0 +1,16 @@
+ class last{
+     public static void main(String []args){
+          int n= 1278;
+           int d= 0;
+           while(n>0){
+               d= n%10;
+               d= n/1000; // THIS PLACE ONLY CHANGES CAMPARE TO LAST DIGIT
+             
+               n= 0;
+           }
+           System.out.println(d);
+               }
+}
+/* Last digit → n % 10
+Second last → (n / 10) % 10
+Third last → (n / 100) % 10 */
